@@ -40,3 +40,21 @@ def write(secs, s):
         sys.stdout.flush()
         time.sleep(secs)
     
+def local(func):
+    if func == 'Connect':
+        socket = 'localhost'
+    elif func == 'GetUser':
+        user = 'root'
+
+
+def GetUserData(inputs, stat, output):
+        print(inputs)
+        usus = input('>')
+        if usus.strip() == stat:
+            print(output)
+    
+def end():
+    quit()
+
+def break():
+    quit()
