@@ -1,6 +1,7 @@
 import time
 import random
 import sys
+import os
 def WaitFor():
     time.sleep(1)
 
@@ -56,5 +57,25 @@ def GetUserData(inputs, stat, output):
 def end():
     quit()
 
-def break():
+def snap():
     quit()
+
+def calcp(num1, num2, num3, num4, num5):
+    print(num1 + num2 + num3 + num4 + num5)
+
+def calcp(num1, num2, num3, num4):
+    print(num1 + num2 + num3 + num4)
+
+def calcp(num1, num2, num3):
+    print(num1 + num2 + num3)
+
+def calcp(num1, num2):
+    print(num1 + num2)
+
+def lib(name):
+    os.mkdir(name)
+
+def checkFor(ftcf):
+    if ftcf == vars:
+        print("Checked for extra variables. Found them!")
+
