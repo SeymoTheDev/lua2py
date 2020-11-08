@@ -79,3 +79,18 @@ def checkFor(ftcf):
     if ftcf == vars:
         print("Checked for extra variables. Found them!")
 
+def reset():
+    print("Resetting")
+    quit()
+
+def build():
+    print("Currently Running Luapy 1.30 BETA!")
+
+
+def range(a, b, c, d, e, f):
+    r = [a, b, c, d, e, f]
+
+    print(random.choice(r))
+
+    
+snap
